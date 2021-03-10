@@ -1,1 +1,3 @@
 # Player-detection-from-video-
+
+I used detectron2 i.e. a popular PyTorch based modular computer vision model library. It is the second iteration of Detectron, originally written in Caffe2. The Detectron2 system allows you to plug in custom state of the art computer vision technologies into your workflow. I personally annotaed the first hundread or so frames from the following football video and then and then trained it on detectron2. Detectron2 Successfully detect the player's jersey number. With the frame number, I extracted at what second it was there in the video. Furthur, I used pytessaract OCR to extract the text out of it. We gave special coordinates of the rectangular boxes to the OCR for better results!
